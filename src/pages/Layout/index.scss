@@ -1,0 +1,18 @@
+@import '@scss/hairline.scss';
+.btn {
+  width: 100px;
+}
+.zs {
+  width: 200px;
+  height: 100px;
+  border: 1px solid #c00;
+}
+p {
+  @include hairline(bottom, green);
+  height: 10px;
+}
+.name {
+  width: 309px;
+  height: 200p;
+  background-color: #c00;
+}
